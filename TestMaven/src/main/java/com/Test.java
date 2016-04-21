@@ -1,9 +1,10 @@
+package main.java.com;
 
 public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Syste.out.println;;()
+		System.out.println("Hi there");
 	}
 
 }
