@@ -34,7 +34,7 @@
 				<artifactId>maven-pmd-plugin</artifactId>
 				<configuration>
 					<rulesets>
-						<ruleset>/ruleSet.xml</ruleset>
+						<ruleset>/PMD.xml</ruleset>
 					</rulesets>
 				</configuration>
 			</plugin>
