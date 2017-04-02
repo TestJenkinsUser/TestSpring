@@ -1,6 +1,5 @@
 package com.ss.controller;
 
-@SuppressWarnings("PMD")
 public class Test {
 
 	public static void main(String[] args) {
