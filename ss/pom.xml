@@ -43,7 +43,7 @@
 				<version>3.0.1</version>
 				<configuration>
 					<targetJdk>1.7</targetJdk>
-					<!-- <rulesets> <ruleset>/PMD.xml</ruleset> </rulesets> -->
+					<rulesets> <ruleset>/ruleSet.xml</ruleset> </rulesets>
 				</configuration>
 			</plugin>
 			<plugin>
