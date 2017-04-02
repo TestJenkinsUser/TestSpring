@@ -17,25 +17,35 @@
 	</dependencies>
 	<build>
 		<finalName>ss</finalName>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<version>3.0.1</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>check</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+
 	</build>
 
 	<reporting>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-checkstyle-plugin</artifactId>
-				<version>2.6</version>
-				<configuration>
-					<configLocation>checkstyle-config.xml</configLocation>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-pmd-plugin</artifactId>
+				<version>3.0.1</version>
 				<configuration>
-					<rulesets>
+					<targetJdk>1.7</targetJdk>
+					<!-- <rulesets>
 						<ruleset>/PMD.xml</ruleset>
-					</rulesets>
+					</rulesets> -->
 				</configuration>
 			</plugin>
 		</plugins>
